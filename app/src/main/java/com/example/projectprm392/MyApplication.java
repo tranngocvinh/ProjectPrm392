@@ -7,13 +7,14 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 
-public class MyApplication extends AppCompatActivity {
+public class MyApplication extends Application {
     public static final String CHANNEL_ID = "channel_music_basic_id";
     private static final String CHANNEL_NAME = "channel_music_basic_name";
     private FirebaseDatabase mFirebaseDatabase;
@@ -23,7 +24,7 @@ public class MyApplication extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate() {
+    public void onCreate() {
         super.onCreate();
         FirebaseApp.initializeApp(this);
         mFirebaseDatabase = FirebaseDatabase.getInstance(Constant.FIREBASE_URL);
