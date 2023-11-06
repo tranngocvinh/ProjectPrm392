@@ -3,9 +3,9 @@ package com.example.projectprm392.activity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.music.R;
-import com.example.music.adapter.MusicViewPagerAdapter;
-import com.example.music.databinding.ActivityPlayMusicBinding;
+import com.example.projectprm392.R;
+import com.example.projectprm392.adapter.MusicViewPagerAdapter;
+import com.example.projectprm392.databinding.ActivityPlayMusicBinding;
 
 public class PlayMusicActivity extends BaseActivity {
 

@@ -7,7 +7,7 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.example.music.R;
+import com.example.projectprm392.R;
 
 public abstract class BaseActivity extends AppCompatActivity {
     protected MaterialDialog progressDialog, alertDialog;

@@ -14,20 +14,20 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.example.music.R;
-import com.example.music.constant.Constant;
-import com.example.music.constant.GlobalFuntion;
-import com.example.music.databinding.ActivityMainBinding;
-import com.example.music.fragment.AllSongsFragment;
-import com.example.music.fragment.ContactFragment;
-import com.example.music.fragment.FeaturedSongsFragment;
-import com.example.music.fragment.FeedbackFragment;
-import com.example.music.fragment.HomeFragment;
-import com.example.music.fragment.NewSongsFragment;
-import com.example.music.fragment.PopularSongsFragment;
-import com.example.music.model.Song;
-import com.example.music.service.MusicService;
-import com.example.music.utils.GlideUtils;
+import com.example.projectprm392.R;
+import com.example.projectprm392.constant.Constant;
+import com.example.projectprm392.constant.GlobalFuntion;
+import com.example.projectprm392.databinding.ActivityMainBinding;
+import com.example.projectprm392.fragment.AllSongsFragment;
+import com.example.projectprm392.fragment.ContactFragment;
+import com.example.projectprm392.fragment.FeaturedSongsFragment;
+import com.example.projectprm392.fragment.FeedbackFragment;
+import com.example.projectprm392.fragment.HomeFragment;
+import com.example.projectprm392.fragment.NewSongsFragment;
+import com.example.projectprm392.fragment.PopularSongsFragment;
+import com.example.projectprm392.model.Song;
+import com.example.projectprm392.service.MusicService;
+import com.example.projectprm392.utils.GlideUtils;
 
 @SuppressLint("NonConstantResourceId")
 public class MainActivity extends BaseActivity implements View.OnClickListener {
