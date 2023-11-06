@@ -22,6 +22,7 @@ public class MyApplication extends AppCompatActivity {
         return (MyApplication) context.getApplicationContext();
     }
 
+    
     @Override
     protected void onCreate() {
         super.onCreate();
