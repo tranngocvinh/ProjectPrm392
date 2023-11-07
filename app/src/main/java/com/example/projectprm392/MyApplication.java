@@ -23,6 +23,7 @@ public class MyApplication extends Application {
         return (MyApplication) context.getApplicationContext();
     }
 
+
     @Override
     public void onCreate() {
         super.onCreate();
