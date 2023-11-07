@@ -1,13 +1,20 @@
 package com.example.projectprm392.constant;
 
 public class Constant {
-    public static final String GENERIC_ERROR = "general error, please try again later";
-    public static final String PAGE_FACEBOOK = "https://www.facebook.com/jetandrews21/";
-    public static final String LINK_FACEBOOK = "https://www.facebook.com/profile.php?id=100071627926636";
-    public static final String PHONE_NUMBER ="+84879136832 ";
-    public static final String GMAIL = "hungbvhe163648@fpt.edu.vn";
-    public static final String ZALO_LINK = "https://chat.zalo.me/"
-    public static final String FIREBASE_URL = "https://musicapp-777c5-default-rtdb.firebaseio.com";
+
+    public static final String GENERIC_ERROR = "General error, please try again later";
+
+    public static final String PAGE_FACEBOOK = "";
+    public static final String LINK_FACEBOOK = "https://www.facebook.com/tincoder";
+    public static final String LINK_YOUTUBE = "https://www.youtube.com/channel/UCu3DXfXYgygIYXN8TduNcNQ";
+    public static final String PHONE_NUMBER = "+84326260456";
+    public static final String GMAIL = "vinhtnhe163160@fpt.edu.vn";
+    public static final String SKYPE_ID = "vinhtran2002";
+    public static final String ZALO_LINK = "https://zalo.me/0326260456";
+
+    // Firebase url
+    public static final String FIREBASE_URL = "https://musicapp-cfdec-default-rtdb.firebaseio.com";
+
     // Max count
     public static final int MAX_COUNT_BANNER = 5;
     public static final int MAX_COUNT_POPULAR = 4;
