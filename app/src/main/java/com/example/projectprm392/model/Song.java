@@ -63,11 +63,11 @@ public class Song implements Serializable {
         this.latest = latest;
     }
 
-    public boolean isFeature() {
+    public boolean isFeatured() {
         return feature;
     }
 
-    public void setFeature(boolean feature) {
+    public void setFeatured(boolean feature) {
         this.feature = feature;
     }
 
