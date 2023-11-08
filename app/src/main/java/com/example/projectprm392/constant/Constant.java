@@ -12,8 +12,7 @@ public class Constant {
     public static final String SKYPE_ID = "vinhtran2002";
     public static final String ZALO_LINK = "https://zalo.me/0326260456";
 
-    // Firebase url
-    public static final String FIREBASE_URL = "https://musicapp-cfdec-default-rtdb.firebaseio.com";
+
 
     // Max count
     public static final int MAX_COUNT_BANNER = 5;
